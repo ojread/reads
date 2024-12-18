@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: ojread/reads
+  branch: main
+  base_url: https://www.reads.org.uk
+  auth_endpoint: /api/auth
+
+media_folder: static/img
+
+public_folder: /img
+
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    folder: 'content/posts'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
