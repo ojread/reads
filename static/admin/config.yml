@@ -5,9 +5,9 @@ backend:
   base_url: https://www.reads.org.uk
   auth_endpoint: /api/auth
 
-media_folder: static/img
+media_folder: static/media
 
-public_folder: /img
+public_folder: /media
 
 collections:
   - name: 'posts'
