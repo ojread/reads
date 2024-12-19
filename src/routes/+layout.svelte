@@ -27,8 +27,8 @@
       <NavHamburger />
       <NavUl>
         <NavLi href="/">Home</NavLi>
+        <NavLi href="/posts">Posts</NavLi>
         <NavLi href="/#">About</NavLi>
-        <NavLi href="/#">Pricing</NavLi>
         <NavLi href="/#">Contact</NavLi>
       </NavUl>
       <DarkMode />
